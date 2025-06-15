@@ -54,7 +54,41 @@ body {
   transform: scale(1.07);
 }
 
-/* Responsive Bonus */
+/* Why Section */
+.why {
+  background-color: #f0f9ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.why h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #005b7f;
+}
+
+.why p {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px 10px;
+  background-color: #003f5c;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #00d9ff;
+  text-decoration: underline;
+}
+
+/* Mobile-Friendly */
 @media (max-width: 600px) {
   .hero-content h1 {
     font-size: 2rem;
@@ -70,4 +104,3 @@ body {
     padding: 12px 22px;
   }
 }
-
